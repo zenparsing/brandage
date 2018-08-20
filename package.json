@@ -1,0 +1,11 @@
+{
+  "name": "brandage",
+  "version": "1.0.0",
+  "description": "A WeakSet subclass for object branding",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zenparsing/brandage.git"
+  },
+  "homepage": "https://github.com/zenparsing/brandage"
+}
