@@ -18,14 +18,18 @@ const brand = new Brand('Sheep');
 class Sheep {
 
   constructor() {
-    brand.add(this);
     this._wool = new Wool();
+    brand.add(this);
   }
 
   sheer() {
     // Don't sheer the goat
     brand.check(this);
     return this._wool.cut();
+  }
+
+  static isSheep(obj) {
+    return brand.has(obj);
   }
 
 }
